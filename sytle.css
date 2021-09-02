@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav img {
+  width: 25%;
+}
+nav div a {
+  color: gray;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 20px;
+}
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+}
+.paragraph p {
+  margin: 20px;
+  text-align: left;
+  width: 30%;
+}
+#title h1 {
+  color: #00b39b;
+}
+section {
+  display: flex;
+  color: blanchedalmond;
+  justify-content: center;
+}
+#patients {
+  background-color: turquoise;
+  border-radius: 15px;
+  width: 20%;
+}
+#doctors {
+  background-color: blue;
+  border-radius: 15px;
+  width: 20%;
+  margin: 0 20px;
+}
+#clinics {
+  background-color: black;
+  border-radius: 15px;
+  width: 20%;
+}
+i {
+  float: left;
+  margin: 20px;
+}
+select {
+  margin-top: 70px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+option {
+  color: black;
+}
+#patients p {
+  font-size: 20px;
+}
+#doctors p {
+  font-size: 20px;
+}
+#clinics {
+  font-size: 20px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+li {
+  list-style: none;
+  margin: 10px;
+}
+ul {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.statistic {
+  display: flex;
+  background-color: #e5faf8;
+}
+.two {
+  display: flex;
+}
+.one h1 {
+  color: turquoise;
+}
+#pic {
+  width: 250px;
+  margin: 20px;
+  height: 300px;
+}
+.left div {
+  margin: 10px;
+  background: #fff;
+}
+.right div {
+  margin: 10px;
+  background: #fff;
+}
+.left {
+  margin-top: 25px;
+}
+.seconde {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.seconde div {
+  margin: 20px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+.first h1 {
+  color: turquoise;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.seconde button {
+    background-color: rgb(185, 185, 231);
+    color: white;
+    padding: 6PX 12PX ;
+    border: none;
+}
+button:hover {
+    background-color :blue;
+}
+.three p {
+   font-size: 32px;
+}
+.three button{
+    color: white;
+    background-color: rgb(185, 185, 231);
+    border: none;
+    padding: 8PX 16PX ;
+}
+
+ .three button:hover{
+    background-color :blue;
+
+ } 
+  
